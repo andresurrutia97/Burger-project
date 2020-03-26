@@ -31,7 +31,7 @@ class App extends Component {
             </Suspense>
           )}
         />
-        <Route path="/" component={BurguerBuilder} />
+        <Route path="/" component={BurguerBuilder} />5
         <Redirect to="/" />
       </Switch>
     );
